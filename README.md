@@ -7,18 +7,11 @@ npm install
 
 ### Compiles and hot-reloads for development
 ```
-npm run serve
+npm run dev
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## vercel-koa-vue 快速开始
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+koa使用nodemon热更新，
+接口地址localhost:9000/api/xxx，前端已经配置代理
+上传git后在vercel内添加项目即可立即访问
